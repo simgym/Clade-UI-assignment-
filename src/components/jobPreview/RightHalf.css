@@ -1,0 +1,163 @@
+.rightHalfWrapper {
+  width: 71.875rem;
+  height: 72rem;
+  border-top: 1px solid #e7e7e7;
+  border-left: 1px solid #e7e7e7;
+  /* z-index: 2; */
+  display: flex;
+  justify-content: center;
+  position: relative;
+  box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.rightHalfCont {
+  /* border: 1px solid red; */
+  width: 22.5rem;
+  height: 22.563rem;
+  margin-top: 2.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.rightHalfButtonWrapper {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.rightHalfButtonWrapper button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10.75rem;
+  height: 2.875rem;
+  border-radius: 0.5rem;
+  /* border: 0.8px solid #dc4a2d; */
+  gap: 0.625rem;
+  padding: 12px, 24px, 12px, 24px;
+}
+.deleteButton {
+  background-color: #fef4f2;
+  border: 0.8px solid #dc4a2d;
+}
+.deleteButton span {
+  width: 1.25rem;
+  height: 1.25rem;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* border: 1px solid red; */
+}
+.deleteButton span img {
+  width: 15px;
+  height: 15px;
+  /* border: 1px solid red; */
+}
+.deleteButton p {
+  color: #dc4a2d;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.35rem;
+  width: 75px;
+  height: 22px;
+  /* border: 1px solid black; */
+}
+.editButton {
+  background-color: #dc4a2d;
+  border: 2px solid #fed3ca;
+}
+.editButton img {
+  width: 1rem;
+  height: 1rem;
+}
+.editButton p {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.35rem;
+  width: 3.5rem;
+  height: 22px;
+  color: white;
+}
+.rightHalfData {
+  /* border: 1px solid gold; */
+  /* width: 360px; */
+  height: 18.188rem;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 5px;
+}
+
+.rightHalfData div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  /* border: 1px solid pink; */
+  width: 336px;
+  height: 2.625rem;
+}
+.rightHalfData div span {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.seperator {
+  width: 336px;
+  /* height: 1px; */
+  border: 1px solid #e7e7e7;
+}
+.apllicantLogoTitle,
+.matchLogoTitle,
+.messageLogoTitle,
+.viewLogoTitle {
+  /* border: 1px solid green; */
+  width: 135px;
+  height: 2.625rem;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.apllicantLogoTitle img,
+.matchLogoTitle img,
+.messageLogoTitle img,
+.viewLogoTitle img {
+  width: 20px;
+  height: 20px;
+}
+.apllicantLogoTitle,
+.matchLogoTitle,
+.viewLogoTitle {
+  gap: 10px;
+}
+.messageLogoTitle {
+  gap: 8px;
+}
+.apllicantLogoTitle p,
+.matchLogoTitle p,
+.messageLogoTitle p,
+.viewLogoTitle p {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.35rem;
+  color: #4f4f4f;
+}
+.totalCount {
+  width: 3.563rem;
+  height: 2.438rem;
+  /* padding: 6px 10px 6px 10px; */
+  display: flex;
+
+  text-align: center;
+  gap: 10px;
+  /* border: 1px solid rebeccapurple; */
+}
+.totalCount p {
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 27px;
+  color: #3d3d3d;
+  /* border: 1px solid blue; */
+  width: 37px;
+  height: 27px;
+}

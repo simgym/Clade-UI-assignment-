@@ -1,0 +1,75 @@
+.leftFourthWrapper {
+  border-left: 1px solid #e7e7e7;
+}
+.leftFourthContent {
+  margin-top: 29px;
+  margin-bottom: 29px;
+  margin-left: 100px;
+  width: 46rem;
+  height: 16.938rem;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  /* border: 1px solid red; */
+}
+.companyNameLogoWrapper {
+  width: 9.25rem;
+  height: 3.75rem;
+  padding: 10px 10px 10px 0px;
+  /* border: 1px solid black; */
+}
+.companyNameLogoContent {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-start;
+  align-items: center;
+  width: 8.625rem;
+  height: 2.5rem;
+  /* border: 1px solid blue; */
+}
+.companyNameLogoContent img {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+}
+.companyNameLogoContent p {
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.688rem;
+  color: #4f4f4f;
+  /* border: 1px solid red; */
+  width: 86px;
+  height: 27px;
+}
+.companyInfoWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 736px;
+  height: 12.188rem;
+  gap: 24px 48px;
+  /* border: 1px solid black; */
+}
+.companyInfoElement {
+  /* border: 1px solid red; */
+  width: 344px;
+  height: 3.063rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.companyInfoElement p {
+  /* border: 1px solid black; */
+  margin: 0;
+}
+.companyInfoTitles {
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.181rem;
+  color: #6e6d6d;
+}
+.companyInfoValues {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.35rem;
+  color: #3d3d3d;
+}

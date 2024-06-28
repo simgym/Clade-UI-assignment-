@@ -1,0 +1,146 @@
+.leftSecondWrapper {
+  width: 82.438rem;
+  border-left: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+}
+.leftSecondContent {
+  /* border: 1px solid black; */
+  display: flex;
+  gap: 6rem;
+  width: 54.5rem;
+  height: 7.188rem;
+  margin-left: 6.25rem;
+  margin-top: 1.813rem;
+  margin-bottom: 1.813rem;
+}
+.leftSecondContent p {
+  /* border: 1px solid blue; */
+  margin: 0px;
+}
+.reqSkillsWrapper,
+.preferredLangWrapper,
+.typeWrapper,
+.yoeWrapper {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  /* padding: 0px; */
+}
+.leftSecondRight {
+  /* border: 1px solid green; */
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.preferredLangWrapper p,
+.typeWrapper p,
+.yoeWrapper p {
+  /* border: 1px solid black; */
+}
+.preferredLangWrapper,
+.typeWrapper,
+.yoeWrapper {
+  width: 170px;
+  height: 3.063rem;
+
+  justify-content: flex-start;
+}
+.reqSkillsWrapper {
+  /* display: flex;
+  flex-direction: column;
+  gap: 8px; */
+  width: 170px;
+  height: 7.188rem;
+  /* border: 1px solid red; */
+}
+.reqSkills {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 7.901rem;
+  height: 5.5rem;
+  /* border: 1px solid black; */
+}
+.figmaWrapper,
+.adobeIllusWrapper,
+.adobeXdWrapper {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  gap: 3px;
+  /* padding: 4px 6px 4px 6px; */
+  padding-left: 4px;
+  border: 1px solid #d0d5dd;
+  /* border-radius: 0.125rem; */
+  border-radius: 6px;
+  height: 1.5rem;
+}
+.figmaWrapper {
+  /* width: 4.125rem; */
+  width: 3.5rem;
+}
+.adobeIllusWrapper {
+  /* width: 7.901rem; */
+  width: 7rem;
+}
+.adobeXdWrapper {
+  width: 5.526rem;
+}
+.figmaWrapper img {
+  width: 16px;
+  height: 16px;
+}
+.adobeIllusWrapper img,
+.adobeXdWrapper img {
+  width: 16.41px;
+  height: 16px;
+}
+.reqSkillsHeading {
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.181rem;
+  color: #6e6d6d;
+  width: 96px;
+  height: 19px;
+}
+.figmaWrapper span p,
+.adobeIllusWrapper span p,
+.adobeXdWrapper span p {
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.013rem;
+  color: #344054;
+  height: 16px;
+  /* border: 1px solid red; */
+}
+.figmaWrapper span,
+.adobeIllusWrapper span,
+.adobeXdWrapper span {
+  height: 1rem;
+  display: flex;
+  /* justify-content: space-between; */
+  /* border: 1px solid blue; */
+  gap: 3px;
+}
+.figmaWrapper span {
+  width: 3.375rem;
+}
+.adobeIllusWrapper span {
+  width: 7.151rem;
+}
+.adobeXdWrapper {
+  width: 4.776rem;
+}
+.leftSecondRightTitle {
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.181rem;
+  color: #6e6d6d;
+}
+.leftSecondRightContent {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.35rem;
+  color: #3d3d3d;
+}

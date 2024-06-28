@@ -1,0 +1,25 @@
+.secondNavWrapper {
+  border: 1px solid #e7e7e7;
+  width: 108rem;
+  /* width: 1728px; */
+  height: 4.188rem;
+  display: flex;
+  align-items: center;
+}
+.secondNavLinksWrapper {
+  display: flex;
+  align-items: center;
+  gap: 4.5rem;
+  /* border: 1px solid black; */
+  width: 36.875rem;
+  height: 1.688rem;
+  margin-left: 6.25rem;
+}
+.secondNavLinksWrapper p {
+  line-height: 1.688rem;
+  font-size: 1.25rem;
+}
+.selectedSecondNavLink {
+  font-weight: 600;
+  color: #dc4a2d;
+}
